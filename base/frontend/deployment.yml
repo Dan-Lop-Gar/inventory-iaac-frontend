@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: danst21/inventory-frontend:latest   # CD actualiza este tag
+          image: danst21/inventory-frontend:973130d1ebb6e189721bd832b530e5acaa3e56de
           ports:
             - containerPort: 80
           resources:
