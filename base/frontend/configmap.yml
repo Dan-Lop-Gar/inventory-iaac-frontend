@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: inventory-mgmt
+data:
+  # Variables que nginx sirve al browser
+  # No hay variables sensibles en el frontend — todo es público
+  APP_ENV: "production"
