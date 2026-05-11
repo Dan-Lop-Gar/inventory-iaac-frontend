@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: danst21/inventory-frontend:c87753bfd118d0ab5a77302010d75a94a080cc81
+          image: danst21/inventory-frontend:ffa3228235b54ec474973404d9af0892121d6048
           ports:
             - containerPort: 80
           resources:
